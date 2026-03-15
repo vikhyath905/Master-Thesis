@@ -179,6 +179,34 @@ During the thesis development process, certain experiments were executed using l
 
 The notebooks are included in their original state to reflect the authentic research workflow conducted during the project.
 
+# Citation
+
+If you use this work or repository in your research, please cite the following thesis:
+
+```
+Vikhyath Sthavarmath. (2026). 
+AI-Driven Sustainable Nutrition: Leveraging Generative Models for Personalized Meal Planning and Food Waste Reduction.
+Master's Thesis, SRH Berlin School of Technology.
+```
+
+You may also cite this repository:
+
+```
+@misc{Sthavarmath2026sustainablemealai,
+  author = {Sthavarmath, Vikhyath},
+  title = {AI-Driven Sustainable Nutrition: Leveraging Generative Models for Personalized Meal Planning and Food Waste Reduction},
+  year = {2026},
+  publisher = {GitHub},
+  url = {https://github.com/vikhyath905/Master-Thesis}
+}
+```
+
+---
+
+# License
+
+This repository is shared for academic and research purposes.
+
 
 # Author
 
