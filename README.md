@@ -133,6 +133,45 @@ Some experiments involved computationally intensive tasks such as embedding gene
 These notebooks are preserved in their original state to accurately represent the research workflow.
 
 ---
+
+# Experimental Findings
+
+The experiments conducted in this project focused on evaluating the feasibility of integrating deterministic nutritional constraints with semantic recipe retrieval and generative explanation models.
+
+The experimental workflow involved three main stages.
+
+## Dataset Integration and Processing
+
+Multiple open-source datasets were integrated to support the recommendation pipeline, including recipe data, nutritional information, and contextual food waste datasets. Data preprocessing included cleaning ingredient names, standardizing nutritional values, and constructing structured representations of recipe metadata.
+
+## Semantic Recipe Retrieval
+
+Recipes were converted into vector embeddings using SentenceTransformer models. These embeddings were indexed using FAISS to enable efficient similarity search across a large recipe corpus.
+
+The retrieval mechanism allows the system to identify recipes that are semantically related to available ingredients and user dietary preferences.
+
+## Deterministic Recipe Ranking
+
+Candidate recipes retrieved from the embedding search were evaluated using deterministic scoring rules. The scoring process considered:
+
+- ingredient overlap with available fridge items
+- calorie constraints derived from personalized metabolic calculations
+- protein requirements for diet goals such as high-protein meals
+
+This deterministic ranking stage ensures that recommended meals satisfy nutritional feasibility before being presented to the user.
+
+## Generative Explanation Experiments
+
+Separate experiments were conducted to explore the use of generative language models for producing explanations describing why a recommended meal satisfies nutritional and sustainability criteria.
+
+Different models were evaluated in a controlled prompt-based setting to observe their ability to reason about structured nutritional inputs.
+
+## Computational Constraints
+
+Some experiments involving embedding generation and large language model inference required GPU resources. Due to runtime limitations and restricted computational units in the execution environment, certain experiments were interrupted or executed partially.
+
+The notebooks included in this repository reflect the actual experimental workflow and development process carried out during the thesis work.
+
 # How to Reproduce the Experiments
 
 The experiments were conducted using Jupyter notebooks and Python-based data processing tools.
@@ -186,7 +225,7 @@ If you use this work or repository in your research, please cite the following t
 ```
 Vikhyath Sthavarmath. (2026). 
 AI-Driven Sustainable Nutrition: Leveraging Generative Models for Personalized Meal Planning and Food Waste Reduction.
-Master's Thesis, SRH Berlin School of Technology.
+Master's Thesis, SRH University of Applied Sciences Heidelberg.
 ```
 
 You may also cite this repository:
@@ -214,6 +253,6 @@ Vikhyath Sthavarmath
 
 Master's Thesis  
 
-SRH University of Applied Science, Heidelberg
+SRH University of Applied Sciences Heidelberg
 
 SRH Campus Leipzig
