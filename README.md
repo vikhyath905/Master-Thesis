@@ -1,4 +1,8 @@
 # AI-Driven Sustainable Nutrition: Leveraging Generative Models for Personalized Meal Planning and Food Waste Reduction
+Master's Thesis – SRH University of Applied Sciences 
+Program: M.Sc. Computer Science – Big Data and Artificial Intelligence  
+Author: Vikhyath Sthavarmath
+Year: 2026
 
 This repository contains the implementation and experimental notebooks developed for the Master's thesis titled:
 
@@ -217,6 +221,38 @@ During the thesis development process, certain experiments were executed using l
 - certain outputs may not be fully reproduced without sufficient compute resources
 
 The notebooks are included in their original state to reflect the authentic research workflow conducted during the project.
+
+
+# Future Work
+
+While this project demonstrates the feasibility of integrating deterministic nutritional constraints, semantic recipe retrieval, and generative explanation models for sustainable meal planning, several extensions can further improve the system.
+
+## User Interface Integration
+
+The current implementation focuses on the backend recommendation pipeline and experimental notebooks. Future work could develop an interactive web or mobile interface that allows users to upload their fridge inventory and receive personalized meal recommendations.
+
+## Real-Time Fridge Monitoring
+
+Integration with IoT-enabled smart refrigerators or barcode-based food tracking systems could allow automatic detection of available ingredients and their expiration dates. This would make the recommendation system more practical for real-world household environments.
+
+## Improved Sustainability Modeling
+
+The current sustainability component prioritizes ingredients that are close to expiration. Future systems could incorporate additional sustainability indicators such as carbon footprint, seasonal food availability, and supply chain impacts.
+
+## Advanced Personalization
+
+Although metabolic calculations such as BMR and TDEE were used to estimate calorie targets, more sophisticated personalization could incorporate medical conditions, micronutrient requirements, and long-term dietary patterns.
+
+## Robust Generative Reasoning Evaluation
+
+Experiments with generative language models were conducted to explore explanation capabilities. Future research could perform systematic evaluation of reasoning quality, hallucination behavior, and constraint adherence across multiple LLM architectures.
+
+## Large-Scale Experimental Validation
+
+Further experiments could evaluate the system using larger user datasets and long-term simulation of household food consumption patterns to quantify potential food waste reduction.
+
+These directions represent promising opportunities for extending AI-driven sustainable nutrition systems beyond the experimental prototype developed in this thesis.
+
 
 # Citation
 
